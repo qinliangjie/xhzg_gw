@@ -1,0 +1,266 @@
+body{
+    overflow-x: hidden;
+}
+.animated {
+    animation-duration: .6s;
+    animation-fill-mode: both;
+}
+@keyframes scaleImg{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.scaleImg{
+    animation-name: scaleImg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes fadeInRightLong {
+    from {
+        opacity: 0;
+        transform: translate3d(10%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(10%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeInTop{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-15%,0);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeOutTop{
+    from{
+        opacity: 1;
+        transform: none;
+    }
+    to{
+        opacity: 0;
+        transform: translate3d(0,-15%,0);
+    }
+}
+@keyframes fadeInBottom{
+    from{
+        opacity: 0;
+        transform: translate3d(0,15%,0);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes rotate{
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.fadeInRight {
+    animation-name: fadeInRight;
+    animation-delay: .6s;
+}
+.fadeInRightLong{
+    animation-name: fadeInRightLong;
+}
+.fadeInTop{
+    animation-name: fadeInTop;
+}
+.fadeOutTop{
+    animation-name: fadeOutTop;
+}
+.fadeInBottom{
+    animation-name: fadeInBottom;
+}
+.delay100{
+    animation-delay: .5s;
+}
+.flipInX {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    animation-name: flipInX;
+}
+.menuImg {
+    position: fixed;
+    width: .853333rem;
+    height:.853333rem;
+    /* width: .64rem;
+    height: .64rem; */
+    top: .226667rem;
+    left: .173333rem;
+    z-index: 2;
+}
+.mainpic{
+    position: relative;
+    width: 100%;
+    height:17.866667rem;
+    overflow-x: hidden;
+}
+.mainImg{
+    position: absolute;
+    width: 10rem;
+    height:17.866667rem;
+    top: 0;
+    left: 0;
+}
+.topText{
+    margin:0;
+    font-size: .34rem;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top:.333333rem;
+    letter-spacing: .3rem;
+}
+.peopleImg{
+    position: absolute;
+    width: 10rem;
+    height:17.866667rem;
+    top: 0;
+    left: 0;
+}
+.play{
+    position: absolute;
+    top:10.8rem;
+    right: -1.6rem;
+    width: 6rem;
+}
+.logoImg{
+    width: 5.333333rem;
+    position: absolute;
+    top: 12.6rem;
+    left: 50%;
+    margin-left: -2.666667rem;
+}
+.gotoApp{
+    width: 4.426667rem;
+    height:1.146667rem;
+    position: absolute;
+    top: 15.2rem;
+    left: 50%;
+    margin-left: -2.213333rem;
+}
+.fivemain{
+    width:100%;
+    position: relative;
+    height:17.693333rem;
+}
+.fivebg{
+    position: absolute;
+    width: 10rem;
+    top: 0;
+    left: 0;
+    height:17.693333rem;
+}
+.picbox{
+    width: 8.933333rem;
+    height: 12.8rem;
+    column-count: 2;
+    column-gap: 0;
+    position: absolute;
+    left: 50%;
+    top: 1.333333rem;
+    margin-left: -4.466667rem;
+}
+.picbox div img{
+    width: 100%;
+}
+.pic1{
+    width: 4.426667rem;
+    height: 6.8rem;
+    display: flex;
+    overflow: hidden;
+}
+.pic2,.pic3{
+    width: 4.426667rem;
+    height: 3rem;
+    overflow: hidden;
+    display: flex;
+}
+.pic4,.pic5{
+    width: 4.506667rem;
+    height: 3rem;
+    overflow: hidden;
+    display: flex;
+}
+.pic6{
+    width: 4.506667rem;
+    height: 6.8rem;
+    overflow: hidden;
+    display: flex;
+}
+.footer {
+    width: 8.213333rem;
+    height: 1.453333rem;
+    position: absolute;
+    bottom: .4rem;
+    left: 50%;
+    margin-left: -4.106667rem;
+}
+.footer ul {
+    list-style: none;
+    position: absolute;
+    left: 1.8rem;
+    top: .7rem;
+    width: 4.6rem;
+}
+.footer ul li {
+    float: left;
+    width: 1.133333rem;
+    height: .533333rem;
+}
+.pictureMain{
+    width: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    font-size: 0.24rem;
+    z-index: 4;
+}
+.closebtn{
+    width: .853333rem;
+    height: .853333rem;
+    position: absolute;
+    top: 21%;
+    right: .2rem;
+    z-index: 3;
+    -webkit-animation: rotate 1s linear;
+    animation: rotate 1s linear;
+}
+#swiper-pic{
+    width: 100%;
+    position: absolute;
+    height: 7rem;
+    top: 25%;
+    left: 0;
+}

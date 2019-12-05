@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CODE：SEED星火之歌</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="keywords" content="喪屍、探索、二次元、角色扮演、末日、rpg、卡牌、策略、探險、建造、培養、建設、招募、戰鬥、守護、戰爭、娘化">
+    <meta name="description" content="指揮官！歡迎加入『種火計劃』，與美少女戰士們一齊探尋月源石的秘密，拯救這個崩壞的世界！">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+    <!-- <meta name="generator" content="Typecho 1.0/14.10.10">
+    <meta name="template" content="pcAndMobile"> -->
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile-index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- css兼容 -->
+    <!-- <script type="text/javascript" src="https://app.talesofadventure.novelga.me/usr/themes/pcAndMobile/js/modernizr.custom.53451.js"></script> -->
+    <style type="text/css">
+    
+    </style>
+</head>
+<body>
+    <main>
+        <img src="img/menu.png" alt="" class="menuImg">
+        <div class="mainpic">
+            <img src="img/top/bg.jpg" alt="" class="mainImg">
+            <p class="topText animated fadeInTop delay100">種火少女終末戰いの最終希望</p>
+            <img src="img/top/bg.png" alt="" class="peopleImg animated fadeInRightLong">
+            <img src="img/top/play.png" alt="" class="play animated fadeInRight">
+            <img src="img/top/logo.png" alt="" class="logoImg animated fadeInTop">
+            <img src="img/top/detail.png" alt="" class="gotoApp animated fadeInBottom">
+        </div>
+        <div class="fourmain">
+
+        </div>
+        <div class="fivemain">
+            <img src="img/five/bg.jpg" alt="" class="fivebg">
+            <div class="picbox">
+                <div class="pic1">
+                    <img src="img/five/pic1.jpg" alt="" class="scaleImg" onclick="showPic(1)">
+                </div>
+                <div class="pic2">
+                    <img src="img/five/pic2.jpg" alt="" onclick="showPic(2)">
+                </div>
+                <div class="pic3">
+                    <img src="img/five/pic3.jpg" alt="" onclick="showPic(3)">
+                </div>
+                <div class="pic4">
+                    <img src="img/five/pic4.jpg" alt="" onclick="showPic(4)">
+                </div>
+                <div class="pic5">
+                    <img src="img/five/pic5.jpg" alt="" onclick="showPic(5)">
+                </div>
+                <div class="pic6">
+                    <img src="img/five/pic6.jpg" alt="" onclick="showPic(6)">
+                </div>
+            </div>
+            <div class="footer">
+                <img src="img/footer.png">
+                <ul>
+                    <a target="_blank" href="http://www.gamemorefun.com/"><li></li></a>
+                    <a target="_blank" href="https://www.facebook.com/codeseed.tw/"><li></li></a>
+                    <a target="_blank" href="https://userterms.gamemorefun.com/"><li></li></a>
+                    <a target="_blank" href="https://privacypolicy.gamemorefun.com/"><li></li></a>
+                </ul>
+            </div>
+        </div>
+         
+        <div class="pictureMain">
+           <!-- Swiper -->
+         <div class="swiper-container" id="swiper-pic">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/five/picture1.jpg" alt="">
+                </div>
+                <div class="swiper-slide"><img src="img/five/picture2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/five/picture3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/five/picture4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/five/picture5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/five/picture6.jpg" alt=""></div>
+                </div>
+            </div>
+            <img src="img/close.png" alt="" class="closebtn" onclick="closeImg()">
+        </div>
+    </main>
+</body>
+<script type="text/javascript" src="js/flexible.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    function showPic(e){
+        
+        $('body').css('overflow','hidden')
+        $('html').css('overflow','hidden')
+        $('.pictureMain').css({'display':'block','height':window.screen.height+'px'})
+        $('.pictureMain').removeClass('animated fadeOutTop').addClass('animated fadeInTop')
+        var swiper = new Swiper('#swiper-pic',{
+            initialSlide:e-1
+        }); 
+    }
+    function closeImg(){
+        $('body').css('overflow','auto')
+        $('html').css('overflow','auto')
+        $('.pictureMain').removeClass('animated fadeInTop').addClass('animated fadeOutTop')
+        setTimeout(function(){
+            $('.pictureMain').css('display','none')
+        },600)
+        
+    }
+    
+
+</script>
+</html>
