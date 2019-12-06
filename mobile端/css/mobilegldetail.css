@@ -1,0 +1,169 @@
+html,
+body {
+    background-color: #fcfcfd
+}
+
+.gotonav {
+    width: 0.867rem;
+    height: 0.867rem;
+    top: 1rem;
+    right: 0.213rem;
+    position: absolute;
+    z-index: 999;
+}
+
+.secoundbody {
+    position: relative;
+    width: 10.0rem;
+    height: 14.16rem;
+    background: url("../images/bgnew.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainpic {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 8.973rem;
+    background: url("../images/mainpc.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.showpic1 {
+    position: absolute;
+    width: 4.68rem;
+    height: 1.973rem;
+    left: 0.387rem;
+    top: 2rem;
+}
+
+.showpic2 {
+    position: absolute;
+    z-index: 10;
+    width: 3.293rem;
+    height: 1.573rem;
+    top: 0.187rem;
+    left: 0.187rem
+}
+
+.codepic {
+    position: absolute;
+    width: 2.36rem;
+    height: 2.613rem;
+    right: 0;
+    top: 5.747rem
+}
+
+.pages {
+    width: 1.8rem;
+    height: 0.6rem;
+    margin-top: 0.667rem;
+}
+
+.prev {
+    margin-right: 1.0rem
+}
+
+.newtitle {
+    position: absolute;
+    width: 3.36rem;
+    height: 0.8rem;
+    top: 5.5rem;
+    left: 3.32rem
+}
+
+.swiper-container {
+    position: absolute;
+    left: 0.547rem;
+    top: 2.573rem;
+    width: 8.92rem;
+    height: 5.32rem;
+    border: 0.067rem solid #1F61A0
+}
+
+.newwrap {
+    width: 10.0rem;
+    height: 6.8rem;
+    position: absolute;
+    top: .5rem
+}
+
+.newwrap #newnav {
+    width: 100%;
+    position: relative;
+}
+
+.titles {
+    margin-bottom: 0;
+    font-size: .6rem;
+    /* text-align: center; */
+    width: 100%;
+    padding-right: 20%;
+    font-size: .5rem;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 8px solid rgba(219,0,0,.1);
+}
+
+.times {
+    font-size: .4rem;
+    font-weight: bold;
+    margin-top: 0;
+    padding-left: 10px;
+    border-left: 8px solid rgba(219,0,0,.1);
+}
+
+#textshow {
+    width: 90%;
+    margin: .6rem auto 20px auto;
+    font-size: 0.35rem;
+    min-height: 6.667rem;
+    line-height: .6rem;
+    word-break: break-all;
+}
+
+.share {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    border-bottom: 0.04rem solid #666;
+}
+
+.sharebt {
+    display: inline-block;
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-size: 100% 100%;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+.sharebt:hover {
+    opacity: .8
+}
+
+.comeback {
+    width: 1.333rem;
+    height: 0.667rem;
+    cursor: pointer;
+    background: url("../images/comeback.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 1.2rem
+}
+.lines{
+    width:100%;
+    border-bottom: 0.04rem dashed #666
+}
+footer {
+    position: fixed;
+    bottom: 0
+}
+
+#contentnew {
+    width: 72%;
+    margin: 0 auto;
+    /* float: left; */
+    height: 100%;
+}
