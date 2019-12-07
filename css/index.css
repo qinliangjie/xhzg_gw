@@ -405,6 +405,54 @@ body{
     width: 10rem;
     height: 13.693333rem;
 }
+#peopleList .swiper-pagination{
+    height: 1.24rem;
+    bottom: 1.27rem;
+}
+#peopleList .swiper-button-next{
+    top: 16rem;
+    width: .546667rem;
+    height: .906667rem;
+    background: url(../img/three/right.png) no-repeat;
+    background-size: 100% 100%;
+    right: 1rem;
+    outline:none;
+}
+#peopleList .swiper-pagination-bullet{
+    width:1.08rem;
+    height: 1.24rem;
+    border-radius: 0;
+    outline: none;
+    margin:0 .266667rem
+}
+.swiper-pagination-bullet-active-next,.swiper-pagination-bullet-active-next-next,.swiper-pagination-bullet-active-prev,.swiper-pagination-bullet-active-prev-prev{
+opacity: 0;
+}
+#peopleList .swiper-button-prev{
+    top: 16rem;
+    width: .546667rem;
+    height: .906667rem;
+    background: url(../img/three/left.png) no-repeat;
+    background-size: 100% 100%;
+    left: 1rem;
+    outline:none;
+}
+.shortline{
+    position: absolute;
+    width: 2.226667rem;
+    height: .226667rem;
+    left: 0;
+    top: 11.5rem;
+    z-index: 10;
+}
+.longline{
+    position: absolute;
+    width: 5.706667rem;
+    height: .48rem;
+    right: 0;
+    top: 10.5rem;
+    z-index: 10;
+}
 .fourmain{
     width: 100%;
     height: 17.48rem;
@@ -445,7 +493,7 @@ body{
     transform:translateX(0);
     opacity:1;
 }
-.swiper-button-next{
+.fourmain  .swiper-button-next{
     top: 8.5rem;
     width: 1.466667rem;
     height: 1.973333rem;
@@ -454,7 +502,7 @@ body{
     right: -.1rem;
     outline:none;
 }
-.swiper-button-prev{
+.fourmain  .swiper-button-prev{
     top: 8.5rem;
     width: 1.466667rem;
     height: 1.973333rem;
@@ -557,4 +605,157 @@ body{
     height: 7rem;
     top: 25%;
     left: 0;
+}
+
+.people0{
+    background:url('../img/three/change/noselect/attack/jll.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people0.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/jll.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people1{
+    background:url('../img/three/change/noselect/attack/ks.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people1.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/ks.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people2{
+    background:url('../img/three/change/noselect/attack/tsl.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people2.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/tsl.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people3{
+    background:url('../img/three/change/noselect/attack/nbe.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people3.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/nbe.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people4{
+    background:url('../img/three/change/noselect/attack/nfdd.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people4.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/nfdd.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people5{
+    background:url('../img/three/change/noselect/attack/alf.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people5.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/alf.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people6{
+    background:url('../img/three/change/noselect/attack/ayst.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people6.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/ayst.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people7{
+    background:url('../img/three/change/noselect/attack/bawf.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people7.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/bawf.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people8{
+    background:url('../img/three/change/noselect/attack/dcjk.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people8.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/dcjk.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people9{
+    background:url('../img/three/change/noselect/attack/dlk.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people9.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/dlk.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people10{
+    background:url('../img/three/change/noselect/attack/glb.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people10.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/glb.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people11{
+    background:url('../img/three/change/noselect/attack/hlkls.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people11.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/hlkls.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people12{
+    background:url('../img/three/change/noselect/attack/hs.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people12.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/hs.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people13{
+    background:url('../img/three/change/noselect/attack/kpl.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people13.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/kpl.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people14{
+    background:url('../img/three/change/noselect/attack/lslt.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people14.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/lslt.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people15{
+    background:url('../img/three/change/noselect/attack/npl.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people15.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/npl.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people16{
+    background:url('../img/three/change/noselect/attack/nbh.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people16.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/nhb.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people17{
+    background:url('../img/three/change/noselect/attack/xblt.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people17.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/xblt.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people18{
+    background:url('../img/three/change/noselect/attack/xde.png') no-repeat;
+    background-size: 100% 100%;
+}
+.people18.swiper-pagination-bullet-active{
+    background:url('../img/three/change/select/attack/xde.png') no-repeat;
+    background-size: 100% 100%;
 }
