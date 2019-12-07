@@ -409,6 +409,36 @@ body{
     height: 1.24rem;
     bottom: 1.27rem;
 }
+.name_three{
+    position: absolute;
+    color: white;
+    font-size: .9rem;
+    top: 8.2rem;
+    left: 50%;
+    margin-left: -3.7rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.cv{
+    position: absolute;
+    color: white;
+    font-size: .4rem;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    top: 9.9rem;
+    left: 50%;
+    margin-left: -2.6rem;
+ 
+}
+.voice_{
+    position: absolute;
+    color: white;
+    font-size: .35rem;
+    top: 9.9rem;
+    left: 50%;
+    margin-left: .4rem;
+    width: 4.5rem; 
+}
 #peopleList .swiper-button-next{
     top: 16rem;
     width: .546667rem;
@@ -423,10 +453,11 @@ body{
     height: 1.24rem;
     border-radius: 0;
     outline: none;
-    margin:0 .266667rem
+    margin:0 .266667rem;
+    opacity: 1;
 }
 .swiper-pagination-bullet-active-next,.swiper-pagination-bullet-active-next-next,.swiper-pagination-bullet-active-prev,.swiper-pagination-bullet-active-prev-prev{
-opacity: 0;
+    opacity: 0!important;
 }
 #peopleList .swiper-button-prev{
     top: 16rem;
