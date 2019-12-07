@@ -54,7 +54,7 @@ body{
         transform:none;
     }
 }
-@keyframes fadeInRight {
+/* @keyframes fadeInRight {
     from {
         opacity: 0;
         transform: translate3d(10%, 0, 0);
@@ -73,7 +73,7 @@ body{
         -o-transform: none;
         transform:none;
     }
-}
+} */
 @keyframes fadeInTop{
     from{
         opacity: 0;
@@ -144,11 +144,11 @@ body{
 }
 .fadeInRight {
     animation-name: fadeInRight;
-    animation-delay: .6s;
+    animation-delay: .2s;
 }
 .fadeInLeft {
-    animation-name: fadeInRight;
-    animation-delay: .6s;
+    animation-name: fadeInLeft;
+    animation-delay: .2s;
 }
 .fadeInRightLong{
     animation-name: fadeInRightLong;
